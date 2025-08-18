@@ -1,5 +1,8 @@
 import { projects } from "@/contents/project";
 import Image from "next/image";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 const Projects = () => {
   return (
@@ -43,22 +46,21 @@ const Projects = () => {
 
               {/* Links */}
               <div className="flex gap-4">
-                <a
+                <Link
                   href={project.githubLink}
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="flex items-center gap-2 text-secondary hover:text-primary transition-colors"
                 >
-                  GitHub
-                </a>
-                <a
-                  href={project.demoLink}
+                  <FaGithub className="w-5 h-5" /> <span>Code</span>
+                </Link>
+                <Link
+                  href={project.githubLink}
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="flex items-center gap-2 text-secondary hover:text-primary transition-colors"
                 >
-                  Live Demo
-                </a>
+                  <FaExternalLinkAlt className="w-5 h-5" />{" "}
+                  <span>Live Demo</span>
+                </Link>
               </div>
             </div>
           </article>
