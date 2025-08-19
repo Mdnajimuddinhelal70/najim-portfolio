@@ -1,3 +1,4 @@
+import Blogs from "./components/Blogs";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 
@@ -6,6 +7,7 @@ const page = () => {
     <div>
       <Hero />
       <Projects />
+      <Blogs />
     </div>
   );
 };
