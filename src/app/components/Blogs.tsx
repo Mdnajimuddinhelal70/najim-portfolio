@@ -35,6 +35,15 @@ const Blogs = () => {
           </article>
         ))}
       </div>
+
+      <div className="text-center mt-12">
+        <Link
+          href="/blogs"
+          className="inline-block bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
+        >
+          View All Posts
+        </Link>
+      </div>
     </section>
   );
 };
