@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import myImg from "../../../public/projects/najimpic.png";
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
         {/* Profile Image */}
         <div className="mb-6">
           <Image
-            src="/profile.avif"
+            src={myImg}
             alt="profile image"
             width={150}
             height={150}
