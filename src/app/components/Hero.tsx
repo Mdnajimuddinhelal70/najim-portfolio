@@ -41,7 +41,7 @@ const Hero = () => {
           <Link
             href="/resume.pdf"
             target="_blank"
-            className="px-6 py-3 border rounded-xl shadow hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+            className="px-6 py-3 border rounded-xl shadow hover:bg-gray-100 transition"
           >
             Download CV
           </Link>
@@ -63,7 +63,7 @@ const Hero = () => {
             <Linkedin size={24} />
           </Link>
           <Link
-            href="mailto:yourmail@gmail.com"
+            href="najimuddin77288@gmail.com"
             className="hover:text-primary transition"
           >
             <Mail size={24} />
