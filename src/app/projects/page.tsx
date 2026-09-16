@@ -1,7 +1,9 @@
+import Project from "@/components/Projects/Project";
+
 const ProjectPage = () => {
   return (
     <div>
-      <h1>ProjectPage</h1>
+      <Project />
     </div>
   );
 };

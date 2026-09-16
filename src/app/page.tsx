@@ -1,17 +1,11 @@
-import Blogs from "./components/Blogs";
-import Hero from "./components/Hero";
-import NewsLetter from "./components/NewsLetter";
-import Projects from "./components/Projects";
+import HomeContent from "@/components/Home/HomContent";
 
-const page = () => {
+const LayoutPage = () => {
   return (
     <div>
-      <Hero />
-      <Projects />
-      <Blogs />
-      <NewsLetter />
+      <HomeContent />
     </div>
   );
 };
 
-export default page;
+export default LayoutPage;

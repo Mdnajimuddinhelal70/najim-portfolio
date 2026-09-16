@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "./context/ThemContext";
+// @ts-expect-error Next.js handles this global CSS side-effect import.
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,11 +30,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-white transition-colors dark:bg-gray-900 dark:text-white ${geistSans.variable} ${geistMono.variable}`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-white`}
       >
         <ThemeProvider>
           <Navbar />
+
           <main className="min-h-screen pt-24">{children}</main>
+
           <Footer />
         </ThemeProvider>
       </body>
