@@ -5,7 +5,7 @@ import { MoonIcon, SunIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi"; // React Icons for hamburger & close
+import { FiMenu, FiX } from "react-icons/fi";
 import { TbBrandVscode } from "react-icons/tb";
 
 const Navbar = () => {
