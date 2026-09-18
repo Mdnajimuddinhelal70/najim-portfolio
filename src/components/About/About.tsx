@@ -337,17 +337,17 @@ const About = () => {
             {[
               {
                 icon: <FaGithub />,
-                link: "https://github.com/nazmulxdev",
+                link: "https://github.com/Mdnajimuddinhelal70",
                 color: "#ffffff",
               },
               {
                 icon: <FaLinkedin />,
-                link: "https://linkedin.com/in/nazmulxdev",
+                link: "https://www.linkedin.com/feed/",
                 color: "#0a66c2",
               },
               {
                 icon: <FaWhatsapp />,
-                link: "https://wa.me/+8801600106065",
+                link: "https://wa.me/+8801796427670",
                 color: "#25d366",
               },
             ].map((social, i) => (

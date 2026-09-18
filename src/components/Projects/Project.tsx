@@ -49,9 +49,9 @@ const Project = () => {
       ],
     },
     {
-      name: "Food Sharing Platform",
+      name: "Birendra Nagar Madrasa Website",
       description:
-        "This is food sharing Platform to share extra food. People share here extra food and add pickup location. This data are listed in the data base and showing available status but not showing expired food.",
+        "This is a website for Birendra Nagar Madrasa, providing information about the institution and its activities.",
       technologies: [
         "React",
         "Firebase",
@@ -66,22 +66,20 @@ const Project = () => {
         "Managed Food according to the validation of time and date properly.",
         "Manage all the user by unique id to manage their information in the database.",
       ],
-      liveLink: "https://karamplate.web.app/",
-      githubLink: "https://github.com/nazmulxdev/food-donation-website-client",
-      serverLink: "https://github.com/nazmulxdev/food-donation-website-server",
+      liveLink: "https://madrasa-website-eight.vercel.app/",
+      githubLink: "https://github.com/Mdnajimuddinhelal70/madrasa-website",
+      serverLink:
+        "https://github.com/Mdnajimuddinhelal70/madrasa-website/tree/main/backend",
       images: [
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnjIqyPpgAU0MW8ylo3kh5OVxT7t1bzNaRpSiD",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnApfxp0W8BgZOsVTt3zfwNnhevpW279LyC5JH",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnX4Vh0CaXwlnx3dLjZUtMHJpczTgVG0a6W24m",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnSHuqqtpMq1E0X9wUfd4hL5oKzIx68tVsiRlQ",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnRBkVmuFA7C1xJNqTk2rynZEHUdcQWsOpYfBe",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnEYkhmaLUTgdBVi0sq1FW98vOSbXmpRMGA6Ja",
+        "https://res.cloudinary.com/dpgjlcycl/image/upload/v1789753194/madrasaweb1_xdi2yy.png",
+        "https://res.cloudinary.com/dpgjlcycl/image/upload/v1789753194/madrasaweb2_txijxf.png",
+        "https://res.cloudinary.com/dpgjlcycl/image/upload/v1789753189/madrasaweb3_jpqfd2.png",
       ],
     },
     {
-      name: "Gardening Community",
+      name: "The Jannath Foundation UK",
       description:
-        "A full-stack gardening community portal with  integration dashboard with proper information and charts and JWT authentication.",
+        "This is a website for The Jannath Foundation UK, providing information about the organization and its activities.",
       technologies: [
         "React",
         "Node.js",
@@ -97,16 +95,14 @@ const Project = () => {
         "Handled CRUD operation properly with JWT.",
         "Optimizing image loading for product gallery.",
       ],
-      liveLink: "https://gardening-community-e4aad.web.app/",
-      githubLink:
-        "https://github.com/nazmulxdev/gardening-community-client?tab=readme-ov-file",
-      serverLink: "https://github.com/nazmulxdev/gardening-community-server",
+      liveLink: "https://thejfuk.com",
+      githubLink: "https://github.com/Mdnajimuddinhelal70/the-jf-uk",
+      serverLink:
+        "https://github.com/Mdnajimuddinhelal70/the-jf-uk/tree/main/backend",
       images: [
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnGpbltGIiEPDv29A74W63rKgBMujxmw5QOcFq",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqn651pXFAn6mQ87KqOvziEeMBtZIXoPxFbaLuV",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnRZKXca2FA7C1xJNqTk2rynZEHUdcQWsOpYfB",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqniFKoAuf3JYfqn0wWXr2xOBc4IDQeHlE76ydM",
-        "https://oo4bwvadds.ufs.sh/f/iO8PeJ3JYfqnwQOCdP71VunUcQdSMyIoXtxrWqk86sNmpeJY",
+        "https://res.cloudinary.com/dpgjlcycl/image/upload/v1789754424/jfuk1_zj4qr5.png",
+        "https://res.cloudinary.com/dpgjlcycl/image/upload/v1789754422/jfuk2_l8izxj.png",
+        "https://res.cloudinary.com/dpgjlcycl/image/upload/v1789754414/jf-uk_izgevd.jpg",
       ],
     },
   ];
